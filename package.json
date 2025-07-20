@@ -1,7 +1,7 @@
 {
-  "name": "template",
+  "name": "knight-travails",
   "version": "1.0.0",
-  "description": "a template",
+  "description": "DSA exercise: create a function that take arguments as two arrays, first arg containing two indexes representing current position of knight on a chessbord, second arg containing two indexes representing where knight should go. Given these arguments , function returns array describing shortest path from current position of knight to second",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
