@@ -3,8 +3,13 @@
 class Node {
   constructor(array) {
     this.vertex = array;
+
+    // neighbors word is used for vertices describing possible positions on chessboard the knight could travel from given current position
     this.neighbors = this.#findNeighbors(this.vertex);
   }
+
+  // private methods
+
   #findNeighbors(vertex) {
     let neighbors = [];
     const rowIndex = vertex[0];
