@@ -1,5 +1,6 @@
 'use strict';
 
+// this file was created to use linked list instead of arrays for efficient insertions and deletion of elements. but was never used
 // customized linked-list for this (Knights Travails) project
 class Node {
   constructor(data) {
