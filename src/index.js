@@ -1,10 +1,11 @@
 'use strict';
 
+import { findEnd, path, sameArrays, knightMoves } from './knight-travails';
 import { Node } from './node';
 
-import { knightTravails } from './knight-travails';
-
-const node = new Node([3, 3]);
-window.myNode = node;
+window.findEnd = findEnd;
+window.givePath = path;
 window.Node = Node;
-window.knightTravails = knightTravails;
+
+window.sameArrays = sameArrays;
+window.knightMoves = knightMoves;
